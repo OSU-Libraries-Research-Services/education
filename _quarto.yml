@@ -5,9 +5,9 @@ project:
     - "images/**"
 
 website:
-  title: "Data Visualization"
+  title: "Education"
   favicon: images/favicon.ico
-  repo-url: https://osu-libraries-research-services.github.io/data_visualization/
+  repo-url: https://osu-libraries-research-services.github.io/education/
   google-analytics: "G-BJ38N1FLJT"
   page-navigation: true
   page-footer: 
@@ -18,81 +18,55 @@ website:
   navbar:
     search: true
     logo: images/home_standard_icon.png
-    logo-href: https://osu-libraries-research-services.github.io/data_visualization/
+    logo-href: https://osu-libraries-research-services.github.io/education/
     left:
-      - text: "Library Resources"
-        href: overview.qmd
-      - text: "Python Tutorials"
-        href: python_basics.ipynb
-      - text: "Tableau Tutorials"
-        href: tableau_for_research.ipynb
+      - text: "Thematic Unit 1"
+        href: unit_1.qmd
+      - text: "Thematic Unit 2"
+        href: unit_2.ipynb
+      - text: "Thematic Unit 3"
+        href: unit_3.ipynb
     right:
       - icon: github
         href: https://github.com/OSU-Libraries-Research-Services/data_visualization
 
   sidebar:
-    - title: "Library Resources"
-      style: "docked"
-      background: light
-      contents:
-        - section: "OVERVIEW"
-          contents:
-            - overview.qmd
-        - section: "TOOLS"
-          contents:
-            - tools.qmd
-            - text: "... Excel"
-              href: excel.qmd
-            - text: "... Tableau"
-              href: tableau.qmd
-            - text: "... Python"
-              href: python.qmd
-            - text: "... R"
-              href: r_language.qmd
-        - section: "VISUALIZING TEXT"
-          contents:
-            - qualitative_data_visualization.qmd
-    - title: "Python Tutorials"
+    - title: "Unit 1"
       style: "docked"
       background: light
       contents:
         - section: "INTRODUCTION"
           contents:
-            - python_basics.ipynb
+            - unit_1.qmd
+        - section: "TOOLS"
+          contents:
+            - unit_2.qmd
+            - text: "... Excel"
+              href: unit_3.qmd
+    - title: "Unit 2"
+      style: "docked"
+      background: light
+      contents:
+        - section: "INTRODUCTION"
+          contents:
+            - unit_2.ipynb
         - section: "WEBSITES AND APIS"
           contents:
             - lantern.ipynb
             - animals.ipynb
-            - wikipedia.ipynb
-            - icite.ipynb
-            - pubmed_author_affiliations.ipynb
-            - ohiolink.ipynb
-            - crossref.ipynb
-            - scopus.ipynb
-        - section: "DATA VISUALIZATION"
-          contents:
-            - python_data_visualization.ipynb
-    - title: "Tableau Tutorials"
+    - title: "Unit 3"
       style: "docked"
       background: light
       contents:
-        - section: "TABLEAU FOR RESEARCH"
-          contents:
+        -   contents:
             - text: "Introduction"
-              href: tableau_for_research.ipynb
-            - tableau_research_getting_started.ipynb
-            - tableau_research_choose_effective_visual.ipynb
-            - tableau_research_read_interpret_evaluate.ipynb
-            - tableau_communicate.ipynb
-            - tableau_continue_learning.ipynb
+              href: unit_3.ipynb
         - section: "TABLEAU AND SURVEYS"
           contents:
             - text: "Introduction"
-              href: tableau_and_surveys.qmd
-            - tableau_and_surveys_lesson_1.qmd
-            - tableau_and_surveys_lesson_2.qmd
-            - tableau_and_surveys_lesson_3.qmd
-            - tableau_and_surveys_lesson_4.qmd
+              href: unit_4.qmd
+
+
 
 format:
   html:

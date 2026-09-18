@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Tableau – Education</title>
+<title>Unit 2 – Education</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,6 +26,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -36,6 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./lantern.html" rel="next">
 <link href="./images/favicon.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -89,7 +125,7 @@ gtag('config', 'G-BJ38N1FLJT', { 'anonymize_ip': true});
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -111,16 +147,16 @@ gtag('config', 'G-BJ38N1FLJT', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./overview.html"> 
-<span class="menu-text">Thematic Units</span></a>
+    <a class="nav-link" href="./unit_1.html"> 
+<span class="menu-text">Thematic Unit 1</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./python_basics.html"> 
-<span class="menu-text">Header 2</span></a>
+    <a class="nav-link active" href="./unit_2.html" aria-current="page"> 
+<span class="menu-text">Thematic Unit 2</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tableau_for_research.html"> 
-<span class="menu-text">Header 3</span></a>
+    <a class="nav-link" href="./unit_3.html"> 
+<span class="menu-text">Thematic Unit 3</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -135,29 +171,91 @@ gtag('config', 'G-BJ38N1FLJT', { 'anonymize_ip': true});
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./unit_2.html">INTRODUCTION</a></li><li class="breadcrumb-item"><a href="./unit_2.html">Mastering the Basics</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">INTRODUCTION</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./unit_2.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Mastering the Basics</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">WEBSITES AND APIS</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lantern.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 1. The Lantern</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./animals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 2. Meet the Animals</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
     <h2 id="toc-title">CONTENTS</h2>
    
   <ul>
-  <li><a href="#free-resources" id="toc-free-resources" class="nav-link active" data-scroll-target="#free-resources">Free Resources</a></li>
-  <li><a href="#books" id="toc-books" class="nav-link" data-scroll-target="#books">Books</a></li>
-  <li><a href="#oreilly-online-learning" id="toc-oreilly-online-learning" class="nav-link" data-scroll-target="#oreilly-online-learning">O’Reilly Online Learning</a></li>
-  <li><a href="#workshops-and-events" id="toc-workshops-and-events" class="nav-link" data-scroll-target="#workshops-and-events">Workshops and Events</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting started</a>
+  <ul class="collapse">
+  <li><a href="#heading-3---1" id="toc-heading-3---1" class="nav-link" data-scroll-target="#heading-3---1">Heading 3 - 1</a></li>
+  <li><a href="#heading-3---2" id="toc-heading-3---2" class="nav-link" data-scroll-target="#heading-3---2">Heading 3 - 2</a></li>
+  </ul></li>
+  <li><a href="#html-tip" id="toc-html-tip" class="nav-link" data-scroll-target="#html-tip">HTML Tip</a></li>
+  <li><a href="#html-table-ask-copilot-for-help" id="toc-html-table-ask-copilot-for-help" class="nav-link" data-scroll-target="#html-table-ask-copilot-for-help">HTML Table (ask CoPilot for help)</a></li>
+  <li><a href="#html-exercise-with-collapsed-solution" id="toc-html-exercise-with-collapsed-solution" class="nav-link" data-scroll-target="#html-exercise-with-collapsed-solution">HTML Exercise with Collapsed Solution</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./unit_2.html">INTRODUCTION</a></li><li class="breadcrumb-item"><a href="./unit_2.html">Mastering the Basics</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Tableau</h1>
+<h1 class="title">Unit 2</h1>
 </div>
 
 
@@ -174,69 +272,147 @@ gtag('config', 'G-BJ38N1FLJT', { 'anonymize_ip': true});
 </header>
 
 
-<p><strong>Tableau</strong> is a powerful data visualization tool with a user-friendly drag-and-drop interface and no-code features that make it easy to explore different visual perspectives and find the best way to present your data. Capable of handling datasets with over 25 million rows, Tableau supports flexible, visual thinking and encourages experimentation as you analyze and communicate insights.</p>
-<section id="free-resources" class="level1">
-<h1>Free Resources</h1>
-<ul>
-<li>Tableau’s <a href="https://www.tableau.com/community/academic">Academic Programs</a> provides free licenses and learning resources for students and faculty.</li>
-<li>University Libraries offers <a href="https://library.osu.edu/events?combine=&amp;tid=All&amp;field_location_code_value=10&amp;sort_bef_combine=field_end_date_value_ASC">free Tableau training</a> throughout the year, tailored for faculty, graduate students and other university researchers.</li>
-<li>A wide range of <a href="https://search.library.osu.edu/discovery/search?query=any,contains,tableau%20computer%20file&amp;tab=Everything&amp;search_scope=MyInst_and_CI&amp;vid=01OHIOLINK_OSU:OSU&amp;facet=topic,include,Tableau%20Computer%20File&amp;mode=simple&amp;offset=0">training videos and books</a> is also available through University Libraries.</li>
-</ul>
+<p>👷🚧 THIS PAGE IS UNDER CONSTRUCTION 🚧👷</p>
+<section id="learning-objectives" class="level3">
+<h3 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h3>
+<ol type="1">
+<li>Objective 1</li>
+<li>Objective 2</li>
+<li>Objective 3</li>
+<li>Objective 4</li>
+</ol>
 </section>
-<section id="books" class="level1">
-<h1>Books</h1>
-<div class="grid g-4">
-<div class="g-col-12 g-col-md-6">
-<div class="card bg-secondary mb-3" style="max-width: 20rem;">
-<div class="card-header">
-PRACTICAL TABLEAU
+<section id="getting-started" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started">Getting started</h2>
+<section id="heading-3---1" class="level3">
+<h3 class="anchored" data-anchor-id="heading-3---1">Heading 3 - 1</h3>
+</section>
+<section id="heading-3---2" class="level3">
+<h3 class="anchored" data-anchor-id="heading-3---2">Heading 3 - 2</h3>
+</section>
+</section>
+<section id="html-tip" class="level2">
+<h2 class="anchored" data-anchor-id="html-tip">HTML Tip</h2>
+<div class="card border-primary mb-3 p-1">
+<div class="card-header" style="font-size: 1.8rem;">
+<img src="images/idea_standard_icon.png" alt="" aria-hidden="true" style="height: 3rem; vertical-align: middle; margin-right: 0.5rem;">Tip: Rename Output File
 </div>
 <div class="card-body">
-<img src="images/cover_sleeper_practical_tableau.png" alt="practical tableau book cover" class="d-block mx-auto" style="max-width: 100%; height: auto;">
-<h4 class="card-title anchored" data-anchor-id="books">
-<a href="https://search.library.osu.edu/permalink/01OHIOLINK_OSU/1oqfg3i/alma991085521031208507">Practical Tableau : 100 tips, tutorials, and strategies from a Tableau Zen Master</a>
-</h4>
-</div>
-<ul class="list-group list-group-flush">
-<li class="list-group-item">
-by Ryan Sleeper<br>Sebastopol, CA : O’Reilly Media, 2018.
-</li>
-<li class="list-group-item">
-With screenshots, step-by-step instructions and succinct explanations of key Tableau concepts, this book will quickly orient you to Tableau. Sleeper covers basic and advanced chart types as well as parameters, filters, calculated fields and more, allowing you to create interactive visualizations for presentations, data exploration, or analysis.
-</li>
-</ul>
-</div>
-</div>
-<div class="g-col-12 g-col-md-6">
-<div class="card bg-secondary mb-3" style="max-width: 20rem;">
-<div class="card-header">
-INNOVATIVE TABLEAU
-</div>
-<div class="card-body">
-<img src="images/cover_sleeper_innovative_tableau.png" alt="innovative tableau book cover" class="d-block mx-auto" style="max-width: 100%; height: auto;">
-<h4 class="card-title anchored">
-<a href="https://search.library.osu.edu/permalink/01OHIOLINK_OSU/1oqfg3i/alma991085492836908507">Innovative Tableau : 100 more tips, tutorials, and strategies</a>
-</h4>
-</div>
-<ul class="list-group list-group-flush">
-<li class="list-group-item">
-by Ryan Sleeper<br>Sebastopol, CA : O’Reilly Media, 2020.
-</li>
-<li class="list-group-item">
-With an additional 100 chapters, this book continues where <a href="https://search.library.osu.edu/permalink/01OHIOLINK_OSU/1oqfg3i/alma991085521031208507">Practical Tableau : 100 tips, tutorials, and strategies from a Tableau Zen Master</a> left off, offering instructions for conditionally formatting text, adding images to tooltips, and showing you how to use parameter and set actions. Sleeper introduces additional chart types, including diverging bar charts, waterfall charts, gauges, and more.
-</li>
-</ul>
-</div>
+To avoid accidentally overwriting your original file, consider renaming the output file before writing to it.
 </div>
 </div>
 </section>
-<section id="oreilly-online-learning" class="level1">
-<h1>O’Reilly Online Learning</h1>
-<p>For additional books and learning materials, the <strong><a href="https://search.library.osu.edu/permalink/01OHIOLINK_OSU/2g3e0k/alma991060545609708507">O’Reilly Online Learning: Academic/Public Library Edition</a></strong> collection provides extensive access to eBooks and videos in computer science, IT, business, and related subjects. This resource is provided by University Libraries and is available to all Ohio State faculty, students, and staff with a valid osu.edu email address.</p>
+<section id="html-table-ask-copilot-for-help" class="level1">
+<h1>HTML Table (ask CoPilot for help)</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 33%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Table Header 1</strong></th>
+<th style="text-align: center;"><strong>Table Header 2</strong></th>
+<th style="text-align: right;"><strong>Table Header 3</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Left adjusted</strong></td>
+<td style="text-align: center;">Centered</td>
+<td style="text-align: right;">Right Adjusted</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Row 2</strong></td>
+<td style="text-align: center;">Row 2</td>
+<td style="text-align: right;">Row 2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Row 3</strong></td>
+<td style="text-align: center;">Row 3</td>
+<td style="text-align: right;">Row 3</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="workshops-and-events" class="level1">
-<h1>Workshops and Events</h1>
-<p>University Libraries offers a variety of data skills <a href="https://library.osu.edu/events?combine=&amp;tid=All&amp;field_location_code_value=10&amp;sort_bef_combine=field_end_date_value_ASC">workshops and events</a> for Ohio State faculty, students and staff throughout the academic year.</p>
+<section id="html-exercise-with-collapsed-solution" class="level1">
+<h1>HTML Exercise with Collapsed Solution</h1>
+<p>This is a bit more advanced. You need to change the id attributes to uniquely number each exercise in your document.</p>
+<div id="accordionExercise1" class="accordion">
+<div class="accordion-item">
+<h2 class="accordion-header anchored" id="ex1-headingOne" data-anchor-id="html-exercise-with-collapsed-solution">
+<button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#ex1-collapseOne" aria-expanded="true" aria-controls="ex1-collapseOne">
+<img src="images/guidepost_standard_icon.png" alt="tip icon" style="height: 3rem; vertical-align: middle; margin-right: 0.5rem;">Exercise 1: Find data type
+</button>
+</h2>
+<div id="ex1-collapseOne" class="accordion-collapse collapse show" aria-labelledby="ex1-headingOne" data-bs-parent="#accordionExercise1">
+<div class="accordion-body">
+Find data type for the variable <code>institution_name</code>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header anchored" id="ex1-headingTwo">
+<button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ex1-collapseTwo" aria-expanded="false" aria-controls="ex1-collapseTwo">
+<img src="images/magnifying_glass_standard_icon.png" alt="tip icon" style="height: 3rem; vertical-align: middle; margin-right: 0.5rem;">Solution:
+</button>
+</h2>
+<div id="ex1-collapseTwo" class="accordion-collapse collapse" aria-labelledby="ex1-headingTwo" data-bs-parent="#accordionExercise1">
+<div class="accordion-body">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(institution_name)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+</div>
+<div id="accordionExercise2" class="accordion">
+<div class="accordion-item">
+<h2 class="accordion-header anchored" id="ex2-headingOne">
+<button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#ex2-collapseOne" aria-expanded="true" aria-controls="ex2-collapseOne">
+<img src="images/guidepost_standard_icon.png" alt="tip icon" style="height: 3rem; vertical-align: middle; margin-right: 0.5rem;">Exercise 2: Slice Carmen Ohio
+</button>
+</h2>
+<div id="collapseOne" class="accordion-collapse collapse show fs-4" aria-labelledby="ex2-headingOne" data-bs-parent="#accordionExercise2">
+<div class="accordion-body fs-4">
+<ol>
+<li>
+Find the first 250 characters in Carmen Ohio
+</li>
+<li>
+Find the last 250 characters in Carmen Ohio
+</li>
+<li>
+Find the second sentence in Carmen Ohio
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header anchored" id="ex2-headingTwo">
+<button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ex2-collapseTwo" aria-expanded="false" aria-controls="ex2-collapseTwo">
+<img src="images/magnifying_glass_standard_icon.png" alt="tip icon" style="height: 3rem; vertical-align: middle; margin-right: 0.5rem;">Solution:
+</button>
+</h2>
+<div id="ex2-collapseTwo" class="accordion-collapse collapse" aria-labelledby="ex2-headingTwo" data-bs-parent="#accordionExercise2">
+<div class="accordion-body">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>carmen_ohio<span class="op">=</span><span class="bu">open</span>(<span class="st">'carmen_ohio.txt'</span>, mode<span class="op">=</span><span class="st">'r'</span>, encoding<span class="op">=</span><span class="st">'utf-8'</span>).read()</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># first 250 characters</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>carmen_first_250<span class="op">=</span>carmen_ohio[:<span class="dv">250</span>]</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(carmen_first_250)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># last 250 characters</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>carmen_last_250<span class="op">=</span>carmen_ohio[<span class="op">-</span><span class="dv">250</span>:]</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(carmen_last_250)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co"># second sentence</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>carmen_sentence<span class="op">=</span>carmen_ohio[<span class="dv">33</span>:<span class="dv">62</span>]</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(carmen_sentence)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+</div>
 
 
 </section>
@@ -647,6 +823,15 @@ With an additional 100 chapters, this book continues where <a href="https://sear
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./lantern.html" class="pagination-link" aria-label="Lesson 1. The Lantern">
+        <span class="nav-page-text">Lesson 1. The Lantern</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lesson 1. Getting Started – Data Visualization</title>
+<title>Lesson 1. Getting Started – Education</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -24,7 +30,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -50,20 +55,19 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./tableau_research_choose_effective_visual.html" rel="next">
+<link href="./tableau_and_surveys.html" rel="next">
 <link href="./tableau_for_research.html" rel="prev">
 <link href="./images/favicon.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-67b71551836c0a20811b5c17e14f32cb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-248cc1151c53761f67a575ee0c083256.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,12 +117,12 @@ gtag('config', 'G-BJ38N1FLJT', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="https://osu-libraries-research-services.github.io/education/" class="navbar-brand navbar-brand-logo">
     <img src="./images/home_standard_icon.png" alt="" class="navbar-logo light-content">
     <img src="./images/home_standard_icon.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Data Visualization</span>
+    <a class="navbar-brand" href="https://osu-libraries-research-services.github.io/education/">
+    <span class="navbar-title">Education</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -129,15 +133,15 @@ gtag('config', 'G-BJ38N1FLJT', { 'anonymize_ip': true});
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./overview.html"> 
-<span class="menu-text">Library Resources</span></a>
+<span class="menu-text">Thematic Units</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./python_basics.html"> 
-<span class="menu-text">Python Tutorials</span></a>
+<span class="menu-text">Header 2</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./tableau_for_research.html" aria-current="page"> 
-<span class="menu-text">Tableau Tutorials</span></a>
+    <a class="nav-link" href="./tableau_for_research.html"> 
+<span class="menu-text">Header 3</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -157,7 +161,7 @@ gtag('config', 'G-BJ38N1FLJT', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./tableau_for_research.html">TABLEAU FOR RESEARCH</a></li><li class="breadcrumb-item"><a href="./tableau_research_getting_started.html">Lesson 1. Getting Started</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./tableau_research_getting_started.html">Lesson 1. Getting Started</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -172,7 +176,7 @@ gtag('config', 'G-BJ38N1FLJT', { 'anonymize_ip': true});
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">TABLEAU FOR RESEARCH</span></a>
+ <span class="menu-text">TABLEAU AND SURVEYS</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -180,40 +184,13 @@ gtag('config', 'G-BJ38N1FLJT', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./tableau_for_research.html" class="sidebar-item-text sidebar-link">
+  <a href="./tableau_and_surveys.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tableau_research_getting_started.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Lesson 1. Getting Started</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tableau_research_choose_effective_visual.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lesson 2. Choose an Effective Visual</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tableau_research_read_interpret_evaluate.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lesson 3. Read, Interpret, and Evaluate Data</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tableau_communicate.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lesson 4. Communicate Data</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./tableau_continue_learning.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">🚀 Continue Learning Tableau</span></a>
-  </div>
-</li>
+ <span class="menu-text">tableau_and_surveys_lesson_1.qmd</span>
+  </li>
       </ul>
   </li>
     </ul>
@@ -260,7 +237,7 @@ gtag('config', 'G-BJ38N1FLJT', { 'anonymize_ip': true});
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./tableau_for_research.html">TABLEAU FOR RESEARCH</a></li><li class="breadcrumb-item"><a href="./tableau_research_getting_started.html">Lesson 1. Getting Started</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./tableau_research_getting_started.html">Lesson 1. Getting Started</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Lesson 1. Getting Started</h1>
 </div>
@@ -335,7 +312,7 @@ gtag('config', 'G-BJ38N1FLJT', { 'anonymize_ip': true});
 </div>
 </div>
 </div>
-<p>Data is everywhere. Data for examples and activities in this tutorial was gathered from <strong><a href="https://data.ohio.gov/">DataOhio</a></strong>, <strong><a href="https://data.gov/">data.gov</a></strong>, and <strong><a href="https://www.wikipedia.org/">Wikipedia</a></strong>. Open data, defined as any data that “can be freely used, re-used, and redistributed by anyone, subject only, at most, to the requirement to attribute and share alike,” serves as a valuable resource for developing data literacy. <span class="citation" data-cites="open_data_handbook">(<a href="#ref-open_data_handbook" role="doc-biblioref">Dietrich, n.d.</a>)</span> While government agencies are primary producers of open data, it is also commonly shared by nonprofit organizations, independent researchers, and data enthusiasts.</p>
+<p>Data is everywhere. Data for examples and activities in this tutorial was gathered from <strong><a href="https://data.ohio.gov/">DataOhio</a></strong>, <strong><a href="https://data.gov/">data.gov</a></strong>, and <strong><a href="https://www.wikipedia.org/">Wikipedia</a></strong>. Open data, defined as any data that “can be freely used, re-used, and redistributed by anyone, subject only, at most, to the requirement to attribute and share alike,” serves as a valuable resource for developing data literacy. <span class="citation" data-cites="open_data_handbook">(<a href="#ref-open_data_handbook" role="doc-biblioref">Dietrich et al., n.d.</a>)</span> While government agencies are primary producers of open data, it is also commonly shared by nonprofit organizations, independent researchers, and data enthusiasts.</p>
 <p>Enagaging with datasets that hold personal relevance can significantly enhance the learning experience, particularly when developing skills in data analysis and visualization. You are encouraged to download a dataset that is personally meaningful to you to use with the practices activities provided in this tutorial.</p>
 <p>University Libraries offers several guides to help you <strong><a href="https://guides.osu.edu/data/home">Find Data</a></strong>. You can also talk with a <strong><a href="https://library.osu.edu/unit/research-commons/meet-the-team">librarian</a></strong> about your unique research data needs. Collecting research data on your own requires an understanding of acceptable methods for rigorously and ethically collecting data for your discipline. You can find current methodology for your discipline by talking to experts in your field, <strong><a href="https://search.library.osu.edu/discovery/dbsearch?vid=01OHIOLINK_OSU:OSU&amp;lang=en">searching the literature</a></strong>, and finding ebooks, journals, and more the <strong><a href="https://library.ohio-state.edu/">library catalog</a></strong>.</p>
 <p>If you need data for a project, chances are your data may already be collected by a federal, state, or local governmental entity. Major publishers of U.S. government data include:</p>
@@ -852,12 +829,12 @@ Hoboken, New Jersey: Wiley, 2015.
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-open_data_handbook" class="csl-entry" role="listitem">
-Dietrich, Jonathan AND McNamara, Daniel AND Gray. n.d. <span>“Open Data Handbook.”</span> <a href="https://opendatahandbook.org/guide/en/">https://opendatahandbook.org/guide/en/</a>.
+Dietrich, Daniel, Jonathan Gray, Tim McNamara, et al. n.d. <em>Open Data Handbook</em>. Open Knowledge Foundation. <a href="https://opendatahandbook.org/guide/en/">https://opendatahandbook.org/guide/en/</a>.
 </div>
 <div id="ref-primeau" class="csl-entry" role="listitem">
-Primeau, Hanna. n.d. <span>“Taking the Drama Out of Source Evaluation.”</span> <em>Librarian Yarns</em>. <a href="https://www.librarianyarns.com/drama-source-eval">https://www.librarianyarns.com/drama-source-eval</a>.
+Primeau, Hanna. n.d. <span>“Taking the Drama Out of Source Evaluation.”</span> In <em>Librarian Yarns</em>. <a href="https://www.librarianyarns.com/drama-source-eval">https://www.librarianyarns.com/drama-source-eval</a>.
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
@@ -952,6 +929,11 @@ Primeau, Hanna. n.d. <span>“Taking the Drama Out of Source Evaluation.”</spa
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -1272,8 +1254,8 @@ Primeau, Hanna. n.d. <span>“Taking the Drama Out of Source Evaluation.”</spa
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./tableau_research_choose_effective_visual.html" class="pagination-link" aria-label="Lesson 2. Choose an Effective Visual">
-        <span class="nav-page-text">Lesson 2. Choose an Effective Visual</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./tableau_and_surveys.html" class="pagination-link" aria-label="Introduction">
+        <span class="nav-page-text">Introduction</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

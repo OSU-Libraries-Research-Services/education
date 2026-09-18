@@ -1,6 +1,6 @@
 ---
-title: "How do I start visualizing data?"
-subject: "RESOURCES"
+title: "Unit 1"
+subject: "TUTORIAL"
 format:
   html:
     toc: true

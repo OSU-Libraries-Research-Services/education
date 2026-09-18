@@ -9,4 +9,6 @@ bibliography:
   - references.bib
 ---
 
-👷🚧 This page is under construction 🚧👷
+👷🚧 THIS PAGE IS UNDER CONSTRUCTION 🚧👷
+
+This is a Quarto Markdown page.
