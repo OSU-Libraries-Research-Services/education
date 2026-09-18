@@ -20,51 +20,38 @@ website:
     logo: images/home_standard_icon.png
     logo-href: https://osu-libraries-research-services.github.io/education/
     left:
-      - text: "Thematic Unit 1"
-        href: unit_1.qmd
-      - text: "Thematic Unit 2"
-        href: unit_2.ipynb
-      - text: "Thematic Unit 3"
-        href: unit_3.ipynb
+      - text: "Highlights"
+        href: highlights.qmd
+      - text: "Our Choking Times"
+        href: our_choking_times.qmd
     right:
       - icon: github
         href: https://github.com/OSU-Libraries-Research-Services/data_visualization
 
   sidebar:
-    - title: "Unit 1"
+    - title: "Highlights"
+      style: "docked"
+      background: light
+      contents:
+        - section: "HISTORY"
+          contents:
+            - highlights.qmd
+        - section: "LETTERS"
+          contents:
+            - highlights.qmd
+            - highlights.qmd
+    - title: "Our Choking Times"
       style: "docked"
       background: light
       contents:
         - section: "INTRODUCTION"
           contents:
-            - unit_1.qmd
-        - section: "TOOLS"
+            - our_choking_times.qmd
+        - section: "SECTION 2"
           contents:
-            - unit_2.qmd
-            - text: "... Excel"
-              href: unit_3.qmd
-    - title: "Unit 2"
-      style: "docked"
-      background: light
-      contents:
-        - section: "INTRODUCTION"
-          contents:
-            - unit_2.ipynb
-        - section: "WEBSITES AND APIS"
-          contents:
-            - lantern.ipynb
-            - animals.ipynb
-    - title: "Unit 3"
-      style: "docked"
-      background: light
-      contents:
-        -   contents:
-            - text: "Introduction"
-              href: unit_3.ipynb
-        - section: "TABLEAU AND SURVEYS"
-          contents:
-            - text: "Introduction"
-              href: unit_4.qmd
+            - our_choking_times.qmd
+            - our_choking_times.qmd
+
 
 
 

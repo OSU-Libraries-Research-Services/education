@@ -1,0 +1,19 @@
+---
+title: "Highlights"
+subject: "CURRICULUM"
+format:
+  html:
+    toc: true
+    toc-expand: 2
+    toc-title: CONTENTS
+---
+
+This is the text for highlights
+
+# heading 1
+
+## heading 2
+
+- list
+- list
+

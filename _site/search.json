@@ -3707,5 +3707,99 @@
       "INTRODUCTION",
       "Mastering the Basics"
     ]
+  },
+  {
+    "objectID": "our_choking_times.html",
+    "href": "our_choking_times.html",
+    "title": "Our Choking Times",
+    "section": "",
+    "text": "text, text, text\n\n\ntext, text, text",
+    "crumbs": [
+      "Our Choking Times",
+      "INTRODUCTION",
+      "Our Choking Times"
+    ]
+  },
+  {
+    "objectID": "highlights.html",
+    "href": "highlights.html",
+    "title": "Highlights",
+    "section": "",
+    "text": "This is the text for highlights",
+    "crumbs": [
+      "Highlights",
+      "HISTORY",
+      "Highlights"
+    ]
+  },
+  {
+    "objectID": "highlights.html#overview",
+    "href": "highlights.html#overview",
+    "title": "Unit 1",
+    "section": "Overview",
+    "text": "Overview\n\n\n\n\nBETTER DATA VISUALIZATIONS\n\n\n\n\n\n\n\nBetter Data Visualizations: A Guide for Scholars, Researchers, and Wonks\n\n\n\nby Jonathan Schwabish\n\n\nNew York : Columbia University Press, 2021.\n\n\n\n\n\n\n\nEFFECTIVE DATA VISUALIZATION\n\n\n\n\n\n\n\nEffective Data Visualization: The Right Chart for the Right Data\n\n\n\nby Stephanie Evergreen\n\n\nThousand Oaks, California: SAGE Publications, 2020\n\n\n\n\n\n\n\nSTORYTELLING WITH DATA\n\n\n\n\n\n\n\nStorytelling with Data: A Data Visualization Guide for Business Professionals\n\n\n\nby Cole Nussbaumer Knaflic\n\n\nHoboken, New Jersey: Wiley, 2015.\n\n\n\n\n\n\n\nDATA STORY\n\n\n\n\n\n\n\nData Story: Explain Data and Inspire Action Through Story\n\n\n\nby Nancy Duarte\n\n\nOakton, Virginia: Ideapress Publishing, 2019."
+  },
+  {
+    "objectID": "highlights.html#inspiration",
+    "href": "highlights.html#inspiration",
+    "title": "Unit 1",
+    "section": "Inspiration",
+    "text": "Inspiration\n\n\n\n\nBOOK OF CIRCLES\n\n\n\n\n\n\n\nThe Book of Circles: Visualizing Spheres of Knowledge\n\n\n\nby Manuel Lima\n\n\nNew York, New York: Princeton Architectural Press, 2017.\n\n\n\n\n\n\n\nBOOK OF TREES\n\n\n\n\n\n\n\nThe Book of Trees: Visualizing Branches of Knowledge\n\n\n\nby Manuel Lima\n\n\nNew York, New York: Princeton Architectural Press, 2014.\n\n\n\n\n\n\n\nBIG BOOK DASHBOARDS\n\n\n\n\n\n\n\nThe Big Book of Dashboards: Visualizing Your Data Using Real-World Business Scenarios\n\n\n\nby Steve Wexler, Jeffrey Shaffer, Andy Cotgreave\n\n\nHoboken, New Jersey : Wiley, 2017."
+  },
+  {
+    "objectID": "highlights.html#theory",
+    "href": "highlights.html#theory",
+    "title": "Unit 1",
+    "section": "Theory",
+    "text": "Theory\n\n\n\n\nVISUAL DISPLAY QUANTITATIVE INFORMATION\n\n\n\n\n\n\n\nThe Visual Display of Quantitative Information\n\n\n\nby Edward R. Tufte\n\n\nCheshire, Conn. : Graphic Press, 1983.\n\n\n\n\n\n\n\nBEAUTIFUL EVIDENCE\n\n\n\n\n\n\n\nBeautiful Evidence\n\n\n\nby Edward R. Tufte\n\n\nCheshire, Conn. : Graphic Press, 2006."
+  },
+  {
+    "objectID": "highlights.html#practice",
+    "href": "highlights.html#practice",
+    "title": "Unit 1",
+    "section": "Practice",
+    "text": "Practice\n\n\n\n\nSTORYTELLING WITH DATA: LET’S PRACTICE!\n\n\n\n\n\n\n\nStorytelling With Data: Let’s Practice!\n\n\n\nby Cole Nussbaumer Knaflic\n\n\nHoboken, New Jersey : Wiley, 2020.\n\n\n\n\n\n\n\nDATA VISUALIZATION SKETCHBOOK\n\n\n\n\n\n\n\nThe Data Visualization Sketch Book\n\n\n\nby Stephanie D. H. Evergreen\n\n\nThousand Oaks : SAGE Publications, 2019."
+  },
+  {
+    "objectID": "highlights_history.html",
+    "href": "highlights_history.html",
+    "title": "History",
+    "section": "",
+    "text": "History curriculum goes here",
+    "crumbs": [
+      "HISTORY",
+      "History"
+    ]
+  },
+  {
+    "objectID": "our_choking.html",
+    "href": "our_choking.html",
+    "title": "TABLEAU AND SURVEYS",
+    "section": "",
+    "text": "👷🚧 THIS PAGE IS UNDER CONSTRUCTION 🚧👷\nThis is a Quarto Markdown page."
+  },
+  {
+    "objectID": "our_choking_times.html#heading-2",
+    "href": "our_choking_times.html#heading-2",
+    "title": "Our Choking Times",
+    "section": "",
+    "text": "text, text, text",
+    "crumbs": [
+      "Our Choking Times",
+      "INTRODUCTION",
+      "Our Choking Times"
+    ]
+  },
+  {
+    "objectID": "highlights.html#heading-2",
+    "href": "highlights.html#heading-2",
+    "title": "Highlights",
+    "section": "heading 2",
+    "text": "heading 2\n\nlist\nlist",
+    "crumbs": [
+      "Highlights",
+      "HISTORY",
+      "Highlights"
+    ]
   }
 ]
